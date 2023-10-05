@@ -21,38 +21,38 @@ input.onButtonPressed(Button.A, function() {
 
   
   pins.digitalWritePin(DigitalPin.P13,0)
-  pins.digitalWritePin(DigitalPin.P14,1)
-  pins.digitalWritePin(DigitalPin.P15,0)
+  pins.digitalWritePin(DigitalPin.P14,0)
+  pins.digitalWritePin(DigitalPin.P15,1)
   basic.showString("Blue")
   basic.pause(1000)
 
   
   pins.digitalWritePin(DigitalPin.P13,0)
-  pins.digitalWritePin(DigitalPin.P14,0)
-  pins.digitalWritePin(DigitalPin.P15,1)
+  pins.digitalWritePin(DigitalPin.P14,1)
+  pins.digitalWritePin(DigitalPin.P15,0)
   basic.showString("Green")
   basic.pause(1000)
 
   pins.digitalWritePin(DigitalPin.P13,1)
   pins.digitalWritePin(DigitalPin.P14,1)
   pins.digitalWritePin(DigitalPin.P15,0)
+  basic.showString("Yellow")
+  basic.pause(1000)
+  
+  pins.digitalWritePin(DigitalPin.P13,1)
+  pins.digitalWritePin(DigitalPin.P14,0)
+  pins.digitalWritePin(DigitalPin.P15,1)
   basic.showString("Magenta")
   basic.pause(1000)
 
-  pins.digitalWritePin(DigitalPin.P13,1)
-  pins.digitalWritePin(DigitalPin.P14,0)
-  pins.digitalWritePin(DigitalPin.P15,1)
-  basic.showString("Yellow")
-  basic.pause(1000)
-
+  pins.digitalWritePin(DigitalPin.P13,0)
+  pins.digitalWritePin(DigitalPin.P14,1)
+  pins.digitalWritePin(DigitalPin.P15, 1)
   basic.showString("Cyan")
-  pins.digitalWritePin(DigitalPin.P14,0)
-  pins.digitalWritePin(DigitalPin.P14,1)
-  pins.digitalWritePin(DigitalPin.P14, 1)
   basic.pause(1000)
 
-  basic.showString("White")
   pins.digitalWritePin(DigitalPin.P13,1)
   pins.digitalWritePin(DigitalPin.P14,1)
   pins.digitalWritePin(DigitalPin.P15,1)
+  basic.showString("White")
 })
