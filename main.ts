@@ -12,7 +12,7 @@ pins.digitalWritePin(DigitalPin.P15, 0)
 basic.showIcon(IconNames.Happy)
 basic.clearScreen()
 
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
   pins.digitalWritePin(DigitalPin.P13, 1)
   pins.digitalWritePin(DigitalPin.P14, 0)
   pins.digitalWritePin(DigitalPin.P15, 0)
